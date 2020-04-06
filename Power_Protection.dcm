@@ -12,6 +12,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP D3V3XA4B10LP
+D 4-Channel Low Capacitance TVS Diode Array, DFN-10
+K ESD protection TVS
+F https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf
+$ENDCMP
+#
 $CMP DT1240A-08LP3810
 D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
@@ -268,6 +274,12 @@ $CMP TPD3S044
 D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6
 K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPD4E02B04DQA
+D 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10
+K ESD protection USB HDMI
+F http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
 $ENDCMP
 #
 $CMP TPD4EUSB30
